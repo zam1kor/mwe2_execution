@@ -13,5 +13,18 @@
          </run>
       </application>
    </extension>
+   <extension
+         id="p1"
+         name="p1"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.core.workflow.plugin.id1"
+            name="bla">
+         <property
+               name="appName"
+               value="bla">
+         </property>
+      </product>
+   </extension>
 
 </plugin>
